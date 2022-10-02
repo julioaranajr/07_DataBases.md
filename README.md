@@ -59,3 +59,12 @@ Close your terminal and re-open it.
 mysql -h 127.0.0.1 -u root -p
 ```
 
+# Exercises
+
+> - Connect to your database **(Create the database inside mysql)**
+> - Create Database (movie)
+> - Create Tables **(directors,movies,main_actors, movie_actors)**
+> - Addin more data...
+
+**all that exercises you can find it in movie_managment_project on my repositories)**
+Follow this link to the labs exercises [Movie_Managment_Project](https://github.com/julioaranajr/movies-managment-project)
