@@ -11,9 +11,8 @@ Using a container makes things easy to run an application. Just run the followin
 # mkdir <folder_name>
 mkdir ~/src/Talent-Academy/database
 ```
-
 ```sh
-# docker run --name <container_name> -p 3306:3306 -v <folder_name>:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=<password> -d mysql:latest
+docker run --name <container_name> -p 3306:3306 -v <folder_name>:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=<password> -d mysql:latest
 docker run --name movie-db-mysql -p 3306:3306 -v ~/src/Talent-Academy/database:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:latest
 ```
 
